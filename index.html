@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- *********************************************************** HEADER ***************************************************** -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar__content">
+
+                <div class="navbar__content_logo"><a href="#">SARA</a></div>
+
+                <ul class="navbar__content_menu-list">
+                    <div class="navbar__icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="navbar__icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="hero__banner">
+            <div class="hero__title">
+                <p class="hero__title_1">Hello World ! I'm</p>
+                <p class="hero__title_2">Sara Marhoum</p>
+                <p class="hero__title_3">a
+                    <span class="txt-rotate" data-period="2000"
+                        data-rotate='["Web Designer.", "Developer.", "Freelancer."]'></span></p>
+            </div>
+
+            <div class="hero__btn_container"><a href="#about">
+                    <div class="hero__btn_bg"></div>
+                    <div class="hero__button"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- *********************************************************** ABOUT ***************************************************** -->
+    <section class="about" id="about">
+
+        <div class="about__container">
+
+            <div class="about__img">
+                <img src="img/aboutimg.png" style="width: 665px;" alt="">
+                <!-- <a href='https://www.freepik.com/vectors/people'>People vector created by pikisuperstar
+                     - www.freepik.com</a> -->
+            </div>
+
+            <div class="about__text">
+                <h1> About Me</h1><br> <br>
+
+                <p>Graduate in biotechnology and actually a web development<br> student passionate by this field;
+                    my skills and experiences have<br> led me to evolve in a wide variety of work environments at
+                    an<br> international level.<br>
+                    Building a successful product is a challenge, and I'am highly<br> skilled in user experience
+                    design, interfaces and web<br> development.</p><br><br>
+
+                <ul>
+                    <li class="about__text_info"><span>Name:</span> <span style="margin-left: 20px;">Sara Marhoum</span>
+                    </li><br>
+                    <li class="about__text_info"><span>Email:</span> <span
+                            style="margin-left: 26px;">sara_maroum@hotmail.com</span></li><br>
+                    <li class="about__text_info"><span>Phone: </span> <span style="margin-left: 20px;">+212 6 11 47 39
+                            28</span></li><br>
+                </ul>
+
+                <button class="cv__donwnolad_btn">Download CV</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- *********************************************************** SERVICES ***************************************************** -->
+    <section class="services" id="services">
+
+        <h1>Services</h1><br>
+
+        <p>I always ensure to deliver reliable services, with solution that matches my clients needs . </p>
+        <br><br><br><br>
+
+        <div class="services__container">
+
+            <div class="service1 servicebox">
+                <img src="img/computer.png" alt=""><br>
+                <!-- https://www.flaticon.com/free-icon/computer_2905191?term=web%20design&page=1&position=37 -->
+                <!-- Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from 
+                    <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+                <h3 class="">Web Design</h3><br>
+                <p>Custom Site optimized for SEO and mobile, with the best UX/UI . </p>
+            </div>
+
+            <div class="service2 servicebox">
+                <img src="img/seo.png" alt=""><br>
+                <!-- Icons made by <a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a> from 
+                <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+                <h3 class="">Web Development</h3><br>
+                <p>From a simple blog to an E-commerce plateform, get a responsive custom website .</p>
+            </div>
+
+            <div class="service3 servicebox">
+                <img src="img/app.png" alt=""><br>
+                <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from 
+                <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+                <h3 class="">App Development</h3><br>
+                <p>Custom database-driven web applications for a better data management solution . </p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- *********************************************************** Portfolio ***************************************************** -->
+    <section class="portfolio" id="portfolio">
+
+        <h1>Portfolio</h1><br>
+
+        <p>Portfolio of most recent projects I worked on . </p>
+
+
+        <div class="flipbook-viewport">
+            <div class="container">
+                <div class="flipbook">
+
+                    <div
+                        style="background-image:url(img/backgroundportfolio.jpg) ; background-size: cover; background-position: center;">
+                    </div>
+
+                    <div style="background-image:url(img/foodwebsite1.png)">
+                        <a href="https://saramarhoum.github.io/Food-Delivery-WS/" class="p1btn">View website</a>
+                    </div>
+                    <div style="background-image:url(img/foodwebsite2.png)"></div>
+
+                    <div style="background-image:url(img/horlogewebsite4.jpg)">
+                        <p class="p2text">Simple, yet accurate analog clock that can be placed on any web page</p>
+                        <a href="https://saramarhoum.github.io/Horloge-JS/" class="p2btn">View website</a>
+                    </div>
+                    <div style="background-image:url(img/horlogewebsite2.jpg)"></div>
+
+                    <div style="background-image:url(img/todolistwebsite1.png)">
+                        <p class="p3text">A functional To Do list allowing to add, find and delete tasks with an empty
+                            field control via a popup.</p>
+                        <a href="https://saramarhoum-to-do-list.netlify.app/" class="p3btn">View website</a>
+                    </div>
+                    <div style="background-image:url(img/todolistwebsite.png)"></div>
+
+                    <div style="background-image:url(img/xowebsite2.png)">
+                        <p class="p3text">Tic-tac-toe is a two-player turn-based puzzle game whose goal is to create a
+                            lineup first. The languages
+                            used for the design of this game are: HTML 5, CSS 3 and JavaScript.</p>
+                        <a href="https://saramarhoum.github.io/Tic-Tac-Toe-game/" class="p3btn">View website</a>
+                    </div>
+                    <div style="background-image:url(img/xowebsite.png)"></div>
+
+                    <div style="background-image:url(img/cochleawesite2.png)">
+                        <a href="https://saramarhoum.github.io/Cochlea-website/" class="p5btn">View website</a>
+                    </div>
+                    <div style="background-image:url(img/cochleawesite1.png)"></div>
+
+                    <div style="background-image:url(img/backgroundportfolio3.jpg)"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- *********************************************************** Testimonials ***************************************************** -->
+
+    <section id="testim" class="testim">
+
+        <h1>Testimonials</h1>
+        
+        <div class="wrap">
+
+            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+            <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+            <ul id="testim-dots" class="dots">
+                <li class="dot activ"></li>
+                
+                <li class="dot"></li>
+                
+                <li class="dot"></li>
+                
+                <li class="dot"></li>
+                
+                <li class="dot"></li>
+            </ul>
+            <div id="testim-content" class="cont">
+
+                <div class="activ">
+                    <div class="img"><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" alt="">
+                    </div>
+                    <h2>Hanane Jabane.</h2>
+                    <h5 style="color: white; font-style: italic;">Referent trainer</h5><br>
+                    <p>Dear Sara, during your first year training youcode were intense and required a lot of sacrifices.
+                        I want to thank you for all the work you have done (either as an extracurricular activity or on the projects you have developed), and the whole team joins me in this opinion.
+                        Indeed, I appreciated your listening skills and your desire to learn and help which allowed you to make this training a success.
+                        I wish you success in your professional life, and given the skills you demonstrated during your training, I have no doubt that it will flourish.
+                        Good luck</p>
+                </div>
+
+                <div>
+                    <div class="img"><img src="https://image.ibb.co/cNP817/pexels_photo_220453.jpg" alt=""></div>
+                    <h2>Mr. Lorem Ipsum</h2>
+                    <h5 style="color: white; font-style: italic;">Referent trainer</h5><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+
+                <div>
+                    <div class="img"><img src="https://image.ibb.co/iN3qES/pexels_photo_324658.jpg" alt=""></div>
+                    <h2>Lorem Ipsum</h2>
+                    <h5 style="color: white; font-style: italic;">Referent trainer</h5><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+
+                <div>
+                    <div class="img"><img src="https://image.ibb.co/kL6AES/Top_SA_Nicky_Oppenheimer.jpg" alt=""></div>
+                    <h2>Lorem De Ipsum</h2>
+                    <h5 style="color: white; font-style: italic;">Referent trainer</h5><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+
+                <div>
+                    <div class="img"><img src="https://image.ibb.co/gUPag7/image.jpg" alt=""></div>
+                    <h2>Ms. Lorem R. Ipsum</h2>
+                    <h5 style="color: white; font-style: italic;">Referent trainer</h5><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
+
+    <!-- *********************************************************** Hire Me ***************************************************** -->
+    <section class="hireme" id="hireme">
+
+        <div class="hireme__container">
+
+            <div class="hireme__text">
+                <h1> Freelance mission</h1><br> <br>
+
+                <p>You have a freelance project ? You found the right person !</p><br><br>
+
+                <a href="#contact" id="hiremebtn">Contact Me</a>
+            </div>
+
+            <div class="hireme__img">
+                <img src="img/hireme2.png" style="width: 665px;" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- *********************************************************** CONTACT ***************************************************** -->
+
+    <section class="contact" id="contact">
+        <div class="contact__container">
+            <h1>Get in Touch</h1><br>
+
+            <div class="contact-form">
+
+
+                <div style="width: 444px;">
+                    <i class="fa fa-map-marker"></i><span class="form-info"> Lot Berradi 307 Marrakech - Maroc</span><br>
+                    <i class="fa fa-phone"></i><span class="form-info">+212 6 11 47 39 28</span><br>
+                    <i class="fa fa-envelope"></i><span class="form-info">sara_maroum@hotmail.com</span><br>
+
+                </div>
+
+                <div>
+                    <form>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required><br>
+                        <input type="Email" placeholder="Email" required>
+                        <input type="text" placeholder="Subject" required><br>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message..."></textarea><br>
+                        <button class="submit" >Send Message</button> 
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- <======= GSAP ========> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- <======= MAIN JS ========> -->
+    <script src="script.js"></script>
+
+
+
+    <script type="text/javascript">
+        function loadApp() {
+
+            // Create the flipbook
+
+            $('.flipbook').turn({
+                // Width
+
+                width: 922,
+
+                // Height
+
+                height: 600,
+
+                // Elevation
+
+                elevation: 50,
+
+                // Enable gradients
+
+                gradients: true,
+
+                // Auto center this flipbook
+
+                autoCenter: true
+
+            });
+        }
+
+        // Load the HTML4 version if there's not CSS transform
+
+        yepnope({
+            test: Modernizr.csstransforms,
+            yep: ['lib/turn.js'],
+            nope: ['lib/turn.html4.min.js'],
+            both: ['css/basic.css'],
+            complete: loadApp
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+
+<!-- <div class="hero__img">
+                    <img src="img/header5.png" data-speed="-1" alt="" class="move" style="position: absolute; margin-top: 99px;">      
+                    <img src="img/header4.png" data-speed="2" alt="" class="move" style="position: absolute; margin-left: 69px;">
+                    <img src="img/header6.png" data-speed="1" alt="" class="move" style="position: absolute; margin-left: 175px;">                                                      
+                    <img src="img/header1.png" data-speed="-2" alt="" class="move" style="position: absolute; margin-left: 174px; margin-top: 115px;">
+                    <img src="img/header2.png" data-speed="-1" alt="" class="move" style="position: absolute; margin-left: 305px; margin-top: 40px;">
+                    <img src="img/header3.png" data-speed="2" alt="" class="move" style="position: absolute; margin-left: 375px; margin-top: 164px;">
+                    <img src="img/header7.png" data-speed="-2" alt="" class="move" style="float: right; position: absolute; margin-left: 385px; margin-top: -29px;">
+    </div>  -->
